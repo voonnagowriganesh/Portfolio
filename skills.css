@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    color: #ccc;
+  }
+  
+  header nav a.active {
+    color: #66d9ef;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+  }
+  
+  #skills {
+    background-color: #f9f9f9;
+    padding: 2em;
+  }
+  
+  .skills-container {
+    background-color: #fff;
+    padding: 1em;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills-container h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .skills-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills-container li {
+    margin-bottom: 10px;
+  }
+  
+  .skills-container li::before {
+    content: "\2022";
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-right: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+  }

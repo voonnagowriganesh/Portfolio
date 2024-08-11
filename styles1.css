@@ -1,0 +1,97 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9; /* light gray background */
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #333; /* dark gray background */
+    padding: 1em;
+    text-align: center;
+    color: #fff; /* white text */
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+     /* dark gray background */
+    padding: 0.5em;
+    text-align: left;
+    
+  }
+  
+  nav a {
+    color: #fff; /* white text */
+    text-decoration: none;
+    transition: color 0.2s ease;
+    font-size: 25px;
+  }
+  
+  nav a:hover {
+    color: #ccc; /* light gray text on hover */
+  }
+  
+  /* Section Styles */
+  
+  section {
+    padding: 2em;
+    margin-bottom: 20px;
+    background-color: #fff; /* white background */
+    border: 1px solid #ddd; /* light gray border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  }
+  
+  section h1 {
+    font-size: 25px;
+    margin-top: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Centered paragraph with transparent box */
+  
+  .paragraph-box {
+    background-color: rgba(255, 255, 255, 0.7); /* transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    text-align: center;
+    margin: 40px auto; /* center the box */
+    max-width: 600px; /* set a maximum width for the box */
+  }
+  
+  .paragraph-box p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer Styles */
+  
+  footer {
+    background-color: #333; /* dark gray background */
+    padding: 1em;
+    text-align: center;
+    color: #fff; /* white text */
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
